@@ -9,3 +9,9 @@ function printName(person: { first: string; last: string }): void {
 }
 
 printName({ first: "sanjit", last: "sarkar" });
+
+let coordinate: { x: number; y: number } = { x: 2, y: 5 };
+
+function randomCoordinate(): { x: number; y: number } {
+  return { x: Math.random(), y: Math.random() };
+}
