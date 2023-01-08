@@ -8,3 +8,8 @@ function greet(person: string) {
 
 squire(3);
 greet("Mr. XYZ");
+
+const colors = ["red", "orange", "yellow"];
+colors.map((color) => {
+  return color.toUpperCase();
+});
